@@ -85,10 +85,10 @@ const Contact = () => {
                   </div>
 
                   <div className="social-links">
-                    <a href="#" className="social-link" target="_blank" rel="noopener noreferrer">
+                    <a href="www.google.com" className="social-link" target="_blank" rel="noopener noreferrer">
                       <FaLinkedin className="icon" />
                     </a>
-                    <a href="#" className="social-link" target="_blank" rel="noopener noreferrer">
+                    <a href="www.google.com" className="social-link" target="_blank" rel="noopener noreferrer">
                       <FaGithub className="icon" />
                     </a>
                   </div>

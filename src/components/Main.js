@@ -1,5 +1,4 @@
 import React from 'react'
-import { CiLocationOn } from "react-icons/ci";
 import '../componentsstyle/Main.css'
 import vid from '../bgvideo.mp4'
 import SearchSection from './SearchSection'
