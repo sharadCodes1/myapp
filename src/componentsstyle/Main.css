@@ -1,0 +1,148 @@
+.overlay{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 40%;
+    margin: 8px;
+    left: 4%;
+    padding: 0.5rem;
+}
+.next{
+    top: 44%;
+}
+.form{
+    position: absolute;
+    top:56%;
+    left: 5%;
+    padding: 1rem;
+    background-color: white;
+    width: 80%;
+    height: 60px;
+    border-radius: 25px;
+}
+.labels, .inputfields{
+    display: flex;
+    justify-content: left ;
+
+}
+.label{
+    margin-right: 170px;
+    margin-left: 20px;
+}
+.infield{
+    /* margin-right: 160px; */
+    /* margin-top: 5px; */
+    width: 180px;
+    /* margin-left: 20px; */
+
+    border: none;
+    background-color: lightgray;
+}
+.inclub{
+    background-color: lightgray;
+    margin-right: 150px;
+    margin-top: 5px;
+    padding-left: 0.2rem;
+    width: 180px;
+    height: 25px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.slide{
+    margin-right: 110px;
+}
+.infield:focus{
+    outline: none;
+}
+u{
+    text-decoration-color: #7eb9de;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.hero-section {
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.hero-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .hero-content p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}

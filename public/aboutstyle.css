@@ -1,0 +1,69 @@
+body{
+    background-image: url(photos/bgimage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 22px;
+    color: black;
+ }
+header{
+    background-color: #212551; 
+    height: 60px; 
+    color:white;
+    text-align: center;
+}
+#head{
+    position: relative;
+    top: 20px;
+}
+
+nav{
+background-color:#D88C9A ; 
+font-size: 20px; 
+height: 30px;
+padding: 5px; 
+color: white;
+
+}
+.nav-ele{
+margin-left: 80px;
+}
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header {
+    text-align: center;
+}
+
+#profile-pic {
+    float: right;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#profile-pic2 {
+    float: left;
+    height: 300px;
+    width: 280px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#crochet {
+    float: left;
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+    height: 250px;
+}
+#book{
+    float: left;
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}

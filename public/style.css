@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+    font-size: 18px;
+}
+header{
+    background-color: #212551; 
+    background-color: #3d251e; 
+
+    height: 60px; 
+    color:white;
+    text-align: center;
+}
+#head{
+    position: relative;
+    top: 10px;
+}
+nav{
+    background-color:#D88C9A; 
+    background-color: #8b6c5c; 
+    font-size: 20px; 
+    height: 30px;
+    padding: 5px; 
+    color: white;
+    
+}
+.nav-ele{
+    margin-left: 80px;
+}
+aside{
+    width: 25%; 
+    height: 850px; 
+    padding-left: 15px;
+    margin-left: 15px; 
+    float: right; 
+    background-color: #bca89f; 
+    margin: 10px;
+    font-size: 20px;
+    line-height: 35px;
+    border:1px solid #3D405B;
+}
+section,article{
+    width: 70%; 
+    background-color: #d8cbc4; 
+    margin:10px; 
+    padding: 15px;
+}
+footer{
+    background-color: #8b6c5c;
+
+    margin: 10px; 
+    padding: 15px;
+    color: white;
+    text-align: center;
+    line-height: 18px;
+}
+label{
+    font-size: 20px;
+    color: rgb(58, 58, 104);
+}
+input{
+    height: 30px;
+    width: 160px;
+    font-size: 17px;
+    color: gray;
+    border-radius: 5px;
+    border: none;
+}
+textarea{
+    font-size: 18px;
+    color: gray;
+}
+#submit{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(225, 103, 103);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(188, 76, 76);
+}
+table{
+    border-color: #3D405B;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+table {
+    border-collapse: collapse;
+}
+th{
+    color: white;
+    background-color: #594742;
+}
+th, td {
+    border: 2px solid #3d251e;
+    padding: 2px;
+    padding-left: 5px;
+
+}
+#con{
+    color: white;
+    text-decoration: underline;
+}

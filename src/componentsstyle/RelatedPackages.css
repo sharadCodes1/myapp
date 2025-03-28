@@ -1,0 +1,119 @@
+.related-packages {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: var(--surface-color);
+  border-radius: 15px;
+}
+
+.related-packages h3 {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.related-packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.related-package-card {
+  background-color: var(--background-color);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.related-package-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.package-image {
+  height: 180px;
+  overflow: hidden;
+}
+
+.package-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.related-package-card:hover .package-image img {
+  transform: scale(1.05);
+}
+
+.package-info {
+  padding: 1.5rem;
+}
+
+.package-info h4 {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.duration {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.price {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.destinations {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem 0;
+  line-height: 1.4;
+}
+
+.destinations .highlight {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.add-to-cart {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: transparent;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: var(--surface-color);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .related-packages {
+    padding: 1.5rem;
+  }
+
+  .related-packages h3 {
+    font-size: 1.5rem;
+  }
+
+  .related-packages-grid {
+    grid-template-columns: 1fr;
+  }
+} 

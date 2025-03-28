@@ -1,0 +1,4 @@
+.cardLine{
+    display: flex;
+    justify-content: space-evenly;
+}

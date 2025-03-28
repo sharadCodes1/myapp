@@ -1,0 +1,415 @@
+.about-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&auto=format') center/cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.about-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-hero p {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+/* Company Overview */
+.company-overview {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: var(--surface-color);
+}
+
+.company-overview h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.company-overview p {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+/* Stats Container */
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--card-background);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+/* Services Section */
+.our-services {
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+}
+
+.our-services h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  padding: 2rem;
+  background-color: var(--surface-color);
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px var(--shadow-color);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.service-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Values Section */
+.our-values {
+  padding: 4rem 2rem;
+  background-color: var(--surface-color);
+}
+
+.our-values h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.value-card {
+  padding: 2rem;
+  background-color: var(--card-background);
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.value-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.value-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+}
+
+.why-choose-us h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature {
+  padding: 2rem;
+  background-color: var(--surface-color);
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.feature p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Awards Section */
+.awards {
+  padding: 4rem 2rem;
+  background-color: var(--surface-color);
+}
+
+.awards h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.award {
+  padding: 2rem;
+  background-color: var(--card-background);
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.award:hover {
+  transform: translateY(-5px);
+}
+
+.award h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.award p {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* Mission Section */
+.mission {
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.mission h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.mission-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--surface-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.mission-content p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+              url('https://images.unsplash.com/photo-1488085061387-422e29b40080?w=1200&auto=format') center/cover;
+  color: #ffffff;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.cta-button {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--primary-color-dark);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-hero p {
+    font-size: 1.2rem;
+  }
+
+  .company-overview h2,
+  .our-services h2,
+  .our-values h2,
+  .why-choose-us h2,
+  .awards h2,
+  .mission h2,
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .service-card,
+  .value-card,
+  .feature,
+  .award {
+    padding: 1.5rem;
+  }
+
+  .mission-content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .company-overview h2,
+  .our-services h2,
+  .our-values h2,
+  .why-choose-us h2,
+  .awards h2,
+  .mission h2,
+  .cta-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .stat-number {
+    font-size: 1.75rem;
+  }
+
+  .service-card,
+  .value-card,
+  .feature,
+  .award {
+    padding: 1rem;
+  }
+
+  .mission-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+  }
+} 
