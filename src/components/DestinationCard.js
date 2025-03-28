@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { CiLocationOn } from "react-icons/ci";
-import { IoIosArrowDown, IoIosArrowUp, IoMdClose } from "react-icons/io";
+import {  IoMdClose } from "react-icons/io";
 import { FaShoppingCart } from "react-icons/fa";
 import { useCart } from '../context/CartContext';
 import '../componentsstyle/DestinationCard.css';

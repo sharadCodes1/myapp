@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import DestinationCard from './DestinationCard'
 import '../componentsstyle/Destination.css'
 import img from '../photos/taj-mahal-1379273_1280.jpg';
@@ -6,7 +6,7 @@ import img2 from '../photos/jaipur.webp';
 import img3 from '../photos/goa.jpeg';
 import img4 from '../photos/kerala.jpeg';
 import img5 from '../photos/varanasi.jpeg';
-import img6 from '../photos/ladakh.jpeg';
+
 
   
 export default function Destination() {
